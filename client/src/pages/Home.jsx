@@ -18,7 +18,7 @@ export default function Home() {
                         {user?.email !== undefined ? 'List user Ethereum balance' : 'Please login first'}
                     </div>
                     <div className="mb-12">
-                        {user?.email !== undefined ? user.eth_balance : 'Please login first'}
+                        {user?.email !== undefined ? user.eth_balance : ''}
                     </div>
                 </div>
             </h2>
